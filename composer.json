@@ -9,7 +9,7 @@
       "email": "quanghuybest@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "quanghuybest2k2\\abc\\": "src/"
