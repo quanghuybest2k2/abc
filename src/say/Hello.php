@@ -6,6 +6,6 @@ class Hello
 {
     public function sayHello(string $ten): string
     {
-        return "Hello " . $ten;
+        return "Xin chào bạn " . $ten;
     }
 }

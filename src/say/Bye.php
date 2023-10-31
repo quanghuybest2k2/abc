@@ -6,6 +6,6 @@ class Bye
 {
     public function sayBye(string $ten): string
     {
-        return "Goodbye " . $ten;
+        return "Tạm biệt bạn" . $ten;
     }
 }
