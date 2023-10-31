@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace quanghuybest2k2\abc;
 
 class Hello
 {
