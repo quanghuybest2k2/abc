@@ -11,18 +11,18 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use quanghuybest2k2\abc\say\Hello;
 use quanghuybest2k2\abc\say\Bye;
+use quanghuybest2k2\abc\say\Hello;
 
 $ten = "Đoàn Quang Huy";
 
-$hello = new Hello();
-$bye = new Bye();
+$hello = Hello::sayHello($ten);
+$bye = Bye::sayBye($ten);
 
-echo $hello->sayHello($ten) . "<br/>" . $bye->sayBye($ten);
+echo $hello . "<br/>" . $bye;
 
 /* output:
 Xin chào bạn Đoàn Quang Huy
-Tạm biệt bạnĐoàn Quang Huy*/
+Tạm biệt bạn Đoàn Quang Huy*/
 
 ```
